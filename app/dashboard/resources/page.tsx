@@ -143,7 +143,7 @@ export default function ResourcesPage() {
 
   const BACKEND_URL =
     process.env.NEXT_PUBLIC_BACKEND_URL ||
-    "https://znlm131v-5000.inc1.devtunnels.ms";
+    "https://campus-back-production.up.railway.app";
 
   useEffect(() => {
     const token = localStorage.getItem("session_token");

@@ -50,7 +50,7 @@ const ImportExportPage = () => {
 
   const BACKEND_URL =
     process.env.NEXT_PUBLIC_BACKEND_URL ||
-    "https://znlm131v-5000.inc1.devtunnels.ms";
+    "https://campus-back-production.up.railway.app";
 
   const handleDrag = (e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();

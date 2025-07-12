@@ -119,7 +119,7 @@ export default function AIPage() {
 
       if (activeTab === "crud") {
         response = await fetch(
-          "https://znlm131v-5000.inc1.devtunnels.ms/api/ai/natural-crud",
+          "https://campus-back-production.up.railway.app/api/ai/natural-crud",
           {
             method: "POST",
             headers: {
@@ -132,7 +132,7 @@ export default function AIPage() {
         data = await response.json();
       } else {
         response = await fetch(
-          "https://znlm131v-5000.inc1.devtunnels.ms/api/ai/chat",
+          "https://campus-back-production.up.railway.app/api/ai/chat",
           {
             method: "POST",
             headers: {
@@ -276,7 +276,7 @@ export default function AIPage() {
 
       const token = localStorage.getItem("session_token");
       const response = await fetch(
-        `https://znlm131v-5000.inc1.devtunnels.ms${endpoint}`,
+        `https://campus-back-production.up.railway.app${endpoint}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
