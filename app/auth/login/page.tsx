@@ -36,7 +36,7 @@ export default function LoginPage() {
       const idToken = `simulated_firebase_token_${email}`;
 
       const response = await fetch(
-        "https://znlm131v-5000.inc1.devtunnels.ms/api/auth/login",
+        "https://campus-back-production.up.railway.app/api/auth/login",
         {
           method: "POST",
           headers: {
